@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const path = require("path");
-import cors from "cors";
+var cors = require('cors')
 app.use(cors());
 
 const errorMiddleware = require("./middleware/error");
